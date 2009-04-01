@@ -5,10 +5,10 @@
 ##
 
 from django.contrib import admin
-from models import Attribution
+from licensing.models import Attribution
 
 class AttributionAdmin(admin.ModelAdmin):
-  pass
+    pass
 
 admin.site.register(Attribution, AttributionAdmin)
 

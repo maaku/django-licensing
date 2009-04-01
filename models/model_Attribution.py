@@ -8,7 +8,7 @@ from django.contrib.contenttypes import generic
 from django.contrib.contenttypes.models import ContentType
 from django.db import models
 
-from License import License
+from model_License import License
 
 import tagging
 

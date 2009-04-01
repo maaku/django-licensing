@@ -5,10 +5,10 @@
 ##
 
 from django.contrib import admin
-from models import License
+from licensing.models import License
 
 class LicenseAdmin(admin.ModelAdmin):
-  pass
+    pass
 
 admin.site.register(License, LicenseAdmin)
 

@@ -6,7 +6,7 @@
 
 from django.db import models
 
-from License import License
+from model_License import License
 from languages.models import LangId
 
 class LicenseDesc(models.Model):
