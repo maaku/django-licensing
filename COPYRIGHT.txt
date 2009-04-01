@@ -1,0 +1,12 @@
+: django-licensing: COPYRIGHT.txt
+::
+
+If you have contributed to django-licensing, you deserve to be on this list.
+Contact us (see: AUTHORS) and we'll add you.
+
+django-licensing is Copyright (C) 2009 by the following:
+
+Mark Friedenbach
+
+: End of File
+::
