@@ -41,6 +41,7 @@ class LicenseDesc(models.Model):
     #  pass
 
     class Meta(object):
+        app_label = "licensing"
         unique_together = (( 'license', 'language'),
                            ('language',     'desc'))
         verbose_name        = "Localized License Description"

@@ -50,6 +50,7 @@ class Attribution(models.Model):
     license = models.ForeignKey(License)
 
     class Meta(object):
+        app_label = "licensing"
         unique_together = (("content_type", "object_id"),
                            ("content_type", "object_id", "license"))
 

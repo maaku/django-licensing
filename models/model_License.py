@@ -56,5 +56,8 @@ class License(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta(object):
+        app_label = "licensing"
+
 # End of File
 ##
