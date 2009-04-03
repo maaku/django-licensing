@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+##
 # django-licensing: models/__init__.py
 #
 # Based on code from:
@@ -36,5 +37,6 @@ for filename in os.listdir(model_dir):
 # Hide everything other than the classes from other modules.
 __all__ = model_names
 
+##
 # End of File
 ##

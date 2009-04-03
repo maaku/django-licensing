@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+##
 # django-licensing: models/model_Attribution.py
 ##
 
@@ -62,5 +63,6 @@ try:
 except:
     pass
 
+##
 # End of File
 ##

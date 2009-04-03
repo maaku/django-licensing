@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+##
 # django-licensing: admin/admin_Attribution.py
 ##
 
@@ -12,5 +13,6 @@ class AttributionAdmin(admin.ModelAdmin):
 
 admin.site.register(Attribution, AttributionAdmin)
 
+##
 # End of File
 ##

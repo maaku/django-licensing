@@ -1,3 +1,4 @@
+::
 : django-licensing: COPYRIGHT.txt
 ::
 
@@ -8,5 +9,6 @@ django-licensing is Copyright (C) 2009 by the following:
 
 Mark Friedenbach
 
+::
 : End of File
 ::

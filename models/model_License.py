@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+##
 # django-licensing: models/model_License.py
 ##
 
@@ -59,5 +60,6 @@ class License(models.Model):
     class Meta(object):
         app_label = "licensing"
 
+##
 # End of File
 ##

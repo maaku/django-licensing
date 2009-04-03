@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+##
 # django-licensing: admin/admin_LicenseDesc.py
 ##
 
@@ -12,5 +13,6 @@ class LicenseDescAdmin(admin.ModelAdmin):
 
 admin.site.register(LicenseDesc, LicenseDescAdmin)
 
+##
 # End of File
 ##

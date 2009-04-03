@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+##
 # django-licensing: models/model_LicenseDesc.py
 ##
 
@@ -47,5 +48,6 @@ class LicenseDesc(models.Model):
         verbose_name        = "Localized License Description"
         verbose_name_plural = "Localized License Descriptions"
 
+##
 # End of File
 ##
